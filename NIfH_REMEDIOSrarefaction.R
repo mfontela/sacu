@@ -6,7 +6,7 @@ library(vegan)
 
 nice_colors = c("#999999", "#E69F00", "#56B4E9","#e98756","#c08160","#5800e6", "#CDDC49", "#C475D3", 
                 "#E94B30", "#233F57", "#FEE659", "#A1CFDD", "#F4755E", "#D6F6F7","#EB6D58", "#6898BF")
-Ds <- read_excel("C:/Users/MFontela/OneDrive - Universidade de Vigo/NifH/data/Remedios_ASVs_nifH_seasonal_cycle.xlsx", 
+Ds <- read_excel("~/Remedios_ASVs_nifH_seasonal_cycle.xlsx", 
                  sheet = "RAW_DATA", col_names = FALSE, 
                  col_types = c("text", 
                                "text", "text", "text", "text", "text", 
